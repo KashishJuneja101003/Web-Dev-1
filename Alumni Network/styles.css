@@ -63,10 +63,13 @@ nav {
 }
 
 .search-bar button {
-    display: flex;
+    display: inline;
+    position: relative;
+    top:-0.7vw;
+    left:-6vw;
     background: white;
     color: #4a0e4e;
-    padding: 0.5rem;
+    padding: 0.3rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -76,7 +79,14 @@ nav {
 .search-bar button:hover {
     background: #ddd;
 }
-
+.fa-search{
+    display: inline;
+    position: relative;
+    left: 0vw;
+    top:0vh;
+    color: palevioletred;
+    font-size: 20px;
+}
 nav ul {
     display: flex;
     list-style: none;
